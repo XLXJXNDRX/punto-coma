@@ -1,11 +1,10 @@
 package dominio;
 public class Cliente {
     String nombre;
-    double telefono;
+    String telefono;
 
-    public Cliente(String n, double t){
+    public Cliente(String n, String t){
         nombre = n;
         telefono = t;
-
     }
 }
