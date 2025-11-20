@@ -1,4 +1,6 @@
-public class pedido {
+package dominio;
+
+public class Pedido {
     int bn, color, anillado;
 
     int precioBn, precioColor, precioAnillado = 3000;
