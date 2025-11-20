@@ -1,8 +1,8 @@
 package servicios;
 
 public class puntoycoma {
-    public static void main(String[] args) {
+    public static <Menu> void main(String[] args) {
         Menu m = new Menu();
-        m.mostrar();
+        ((Object) m).mostrar();
     }
 }
